@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grid CSS Responsive Website Layout - "Mobile First" Design</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,300" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<!--header showcase -->
+
+	<!--header#showcas.grid>.bg-image+h1.hdr-titre1{Welcome to Website Layout-Grid CSS}+p.hdr-description{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus delectus deleniti, labore consequatur minima itaque voluptatum architecto facere harum cumque.}+a[#].btn{Lire Plus}-->
+
+	<header id="showcase" class="grid">
+		<div class="bg-image"></div>
+		
+		<div class="content-wrap">
+		<h1 class="titre1">Welcome to Website Layout-Grid CSS Mobile First</h1>
+		<p class="hdr-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus delectus deleniti, labore consequatur minima itaque voluptatum architecto facere harum cumque.</p>
+		<a href="#" class="btn">Lire Plus</a>
+		</div>
+	</header>
+
+	<!--Main Area-->
+
+	<!--main#main>section#section-a.grid>.content-grap>h2.content-title{Web & App Dev Front}+p{Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, dolorum eum similique sequi beatae praesentium! A sed suscipit quia impedit inventore in odio ducimus veniam sequi voluptate amet vero est, ad tempora nisi error iure, quod natus? Ipsa, possimus, itaque.}-->
+
+	<main id="main">
+		<!--Section A-->
+		<section id="section-a" class="grid">
+			<div class="content-wrap">
+				<h2 class="content-title">Web & App Dev Front</h2>
+				<div class="content-text">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, dolorum eum similique sequi beatae praesentium! A sed suscipit quia impedit inventore in odio ducimus veniam sequi voluptate amet vero est, ad tempora nisi error iure, quod natus? Ipsa, possimus, itaque.</p>
+				</div>
+			</div>
+		</section>
+
+		<!--Section B-->
+
+		<!--		section#section-b.grid>ul.sb-ulist>(li.list-card>.card>img+.card-content>h3.card-title{Developpement Web}+p.card-content__description{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam tenetur, cupiditate iure. Veniam incidunt dolor quae sequi repellendus esse est?})*3-->
+
+		<section id="section-b" class="grid">
+			<ul class="sb-ulist">
+				<li class="list-card">
+					<div class="card">
+						<img src="images/pexels-photo-574077.jpeg" class="card-img" alt="">
+						<div class="card-content">
+							<h3 class="card-title">Developpement Web</h3>
+							<p class="card-content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam tenetur, cupiditate iure. Veniam incidunt dolor quae sequi repellendus esse est?</p>
+						</div>
+					</div>
+				</li>
+				<li class="list-card">
+					<div class="card">
+						<img src="images/pexels-photo-261628.jpeg" class="card-img" alt="">
+						<div class="card-content">
+							<h3 class="card-title">Mobile App</h3>
+							<p class="card-content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam tenetur, cupiditate iure. Veniam incidunt dolor quae sequi repellendus esse est?</p>
+						</div>
+					</div>
+				</li>
+				<li class="list-card">
+					<div class="card">
+						<img src="images/pexels-photo-265087.jpeg" class="card-img" alt="">
+						<div class="card-content">
+							<h3 class="card-title">Marketing</h3>
+							<p class="card-content__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam tenetur, cupiditate iure. Veniam incidunt dolor quae sequi repellendus esse est?</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</section>
+		
+		<!--Section C-->
+		
+		<!--section#section-c.grid>.content-wrap>h2.content-title{Lorem ipsum dolor sit amet, consectetur.}+p.content-description{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat laudantium expedita deserunt ab velit reiciendis nisi maiores esse ex totam.}-->
+		
+		<section id="section-c" class="grid">
+			<div class="content-wrap">
+				<h2 class="content-title">Lorem ipsum dolor sit amet, consectetur.</h2>
+				<p class="content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat laudantium expedita deserunt ab velit reiciendis nisi maiores esse ex totam.</p>
+			</div>
+		</section>
+		
+		<!--Section D-->
+		
+		<!--section#section-d.grid>(.box>h2.content{Lorem ipsum.}+p.content-description{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod, provident ab laborum libero repellendus vel eum alias. Alias, voluptatibus?}+p.content-email{contact@fridcss.fr})+(.box>h2.content-title{Lorem ipsum dolor}+p.content-description{Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nobis voluptatibus illum pariatur recusandae dolorum nulla, laborum facilis ullam nostrum!})-->
+		
+		<section id="section-d" class="grid">
+			<div class="box">
+				<h2 class="content">Lorem ipsum</h2>
+				<p class="content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod, provident ab laborum libero repellendus vel eum alias. Alias, voluptatibus?</p>
+				<p class="content-email">contact@fridcss.fr</p>
+			</div>
+			<div class="box">
+				<h2 class="content-title">Lorem ipsum dolor</h2>
+				<p class="content-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus nobis voluptatibus illum pariatur recusandae dolorum nulla, laborum facilis ullam nostrum!</p>
+			</div>
+		</section>
+	</main>
+	
+	<!--footer-->
+	<!--footer#main-footer.grid>(.footer-col2)*2-->
+	
+	<footer id="main-footer" class="grid">
+		<div class="footer-col2">Welcome to Website Layout-Grid CSS</div>
+		<div class="footer-col2">Project By <a href="#" class="ftr-link">Werk_Code</a></div>
+	</footer>
+
+</body>
+
+</html>

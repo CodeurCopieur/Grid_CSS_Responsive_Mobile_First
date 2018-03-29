@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	--couleur :#0F2A56;
+	--couleur2 :#01173E;
+	--btn-bgd :#9C1737;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: var(--couleur);
+	color: #fff;
+	font-size: .75em;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.card-img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 1em 0;
+}
+
+p {
+	margin: 0;
+	padding: 1em 0;
+}
+
+.btn {
+	display: inline-block;
+	background: var(--btn-bgd);
+	color: #fff;
+	text-decoration: none;
+	padding: 1em 2em;
+	border: 1px solid #fff;
+	margin: .5em 0;
+}
+
+.btn:hover{
+	background: var(--couleur2);
+	color: var(--btn-bgd);
+}
